@@ -12,7 +12,9 @@ public class UserController {
 	@RequestMapping("/save")
 	public String saveUser(UserDto userDto,Model model){
 		model.addAttribute("userDto", userDto);
-		return "saveUser";
+		//user是用户模块文件夹
+		return "user/saveUser";
+//		return "saveUser";
 	}
 
 }
