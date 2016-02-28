@@ -1,8 +1,17 @@
 package com.accdays.dto;
 
+import java.util.Date;
+
 public class UserDto {
 	
+	private long id;
 	private String name;
+	private String sex;
+	private String address;
+	private Date birthday;
+	
+	
+	
 	public String getName() {
 		return name;
 	}
@@ -21,7 +30,17 @@ public class UserDto {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	private String sex;
-	private String address;
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public Date getBirthday() {
+		return birthday;
+	}
+	public void setBirthday(Date birthday) {
+		this.birthday = birthday;
+	}
 
 }
