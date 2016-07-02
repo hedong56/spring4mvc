@@ -13,7 +13,7 @@
     <!-- springMVC中servlet的配置文件中必须配置context:component-scan -->
     <context:component-scan base-package="com.accdays"/>
     
-    <mvc:annotation-driven />
+<!--     <mvc:annotation-driven /> -->
      
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver">
