@@ -10,6 +10,8 @@
         http://www.springframework.org/schema/tx/spring-tx.xsd
         http://www.springframework.org/schema/aop
         http://www.springframework.org/schema/aop/spring-aop.xsd">
+        
+    <aop:aspectj-autoproxy/>
     
     <!-- 指明存放占位符的位置 -->
     <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
