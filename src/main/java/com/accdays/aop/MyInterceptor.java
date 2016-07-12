@@ -32,7 +32,6 @@ public class MyInterceptor {
         System.out.println("@After");  
     }  
       
-    
     @AfterThrowing("anyMethod()")  
     public void doAfterThrow(){  
         System.out.println("例外通知");  

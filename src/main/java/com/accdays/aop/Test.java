@@ -4,7 +4,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Test {
 
-	
 	public static void main(String[] args) {
 		ClassPathXmlApplicationContext factory=new ClassPathXmlApplicationContext("applicationContext.xml","/servlet/spring-servlet.xml");
 		PersonServer personServerImpl=(PersonServer)factory.getBean("personServerImpl");

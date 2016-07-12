@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class PersonServerImpl implements PersonServer {
 
-	
 	@Override
 	public String save(String name) {
 		System.out.println("我是save方法,保存："+name); 
